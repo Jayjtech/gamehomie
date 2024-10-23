@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  @apply h-screen p-6 bg-bg1 text-white;
+}
+
+.nav-link {
+  @apply text-gray-200;
+}
+
+.btn-transparent {
+  @apply border border-gray-50 px-6 py-2 text-sm rounded-md text-white;
+}
+
+.btn-success {
+  @apply bg-success p-2 text-sm px-6 py-2 rounded-md text-white;
+}
+
+.btn-danger {
+  @apply bg-danger p-2 text-sm px-6 py-2 rounded-md text-white;
+}
